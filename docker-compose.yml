@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ui-react:
+    image: budgeteer-ui-react:dev-0.1.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./budgeteer.ui.react/src:/app/src
+    command: start
+    environment:
+       - WATCHPACK_POLLING=true
