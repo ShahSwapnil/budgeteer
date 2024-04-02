@@ -21,6 +21,10 @@ Use Clean architecture setup
 - MS SQL
 - Postgre SQL
 
+### Testing
+- Xunit
+- Playwright (UI and Integration)
+
 ### Additional
 - Docker
 - Open Telemetry
