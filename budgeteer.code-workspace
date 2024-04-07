@@ -5,12 +5,12 @@
 			"name": "Budgeteer"
 		},
 		{
-			"path": "./budgeteer.ui.react",
-			"name": "React UI"
+			"path": "./ui/react",
+			"name": "UI.React"
 		},
 		{
-			"path": "./budgeteer.api",
-			"name": "API"
+			"path": "./api/dotnet",
+			"name": "DotNet.API"
 		}
 	],
 	"settings": {
@@ -21,8 +21,8 @@
 			"**/CVS": true,
 			"**/.DS_Store": true,
 			"**/Thumbs.db": true,
-			"budgeteer.ui.react": true,
-			"budgeteer.api": true
+			"ui/**": true,
+			"api/**": true
 		}
 	}
 }

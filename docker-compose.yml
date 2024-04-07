@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./budgeteer.ui.react/src:/app/src
+      - ./ui/react/src:/app/src
     command: start
     environment:
        - WATCHPACK_POLLING=true
